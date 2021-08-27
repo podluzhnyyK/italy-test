@@ -1,0 +1,14 @@
+{
+    "extends": ["stylelint-config-standard", "stylelint-config-recess-order"],
+    "rules": {
+        "failAfterError" : false,
+        "block-no-empty": null,
+        "indentation": 4,
+        "string-quotes": "single",
+        "number-leading-zero": "never",
+        "unit-allowed-list": ["px", "%", "deg", "s", "ms", "em", "vh", "rem", "vw", "fr"],
+        "at-rule-no-unknown": [true, {
+            "ignoreAtRules": ["include", "mixin", "function", "return"]
+        }]
+    }
+}

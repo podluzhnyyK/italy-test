@@ -1,0 +1,4 @@
+dist/**/*.css
+build/**/*.css
+src/**/*.css
+src/**/*.scss
